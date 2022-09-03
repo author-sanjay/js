@@ -5,7 +5,7 @@ const island_count = (grid) => {
     for (let j = 0; j < grid[0].length; j++) {
       var size = check(grid, i, j, visited);
       if (size > 0 && size < minsize) {
-        minsize = size;
+        minsize =size;
       }
     }
   }
