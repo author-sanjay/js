@@ -9,7 +9,7 @@ for( let num of numbers){
     
     if(result!==null){
 4
-       const combinations=[ ...result,num]
+       const combinations=[...result,num]
        if(shortestsum===null||combinations.length<shortestsum.length){
         shortestsum=combinations;
        }
